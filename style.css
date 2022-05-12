@@ -83,6 +83,11 @@ img {
     margin-top: .75rem;
 }
 
+.change:hover {
+    color: var(--dark-blue);
+    text-decoration: none;
+}
+
 .buttons {
     padding: .5rem 1rem;
     display: flex;
@@ -108,7 +113,15 @@ img {
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
+.blue:hover {
+    opacity: .7;
+}
+
 .gray {
     color: var(--de-saturated-blue);
     font-weight: 700;
+}
+
+.gray:hover {
+    color: var(--dark-blue);
 }
