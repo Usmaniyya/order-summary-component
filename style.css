@@ -84,7 +84,7 @@ img {
 }
 
 .change:hover {
-    color: var(--dark-blue);
+    opacity: .7;
     text-decoration: none;
 }
 
